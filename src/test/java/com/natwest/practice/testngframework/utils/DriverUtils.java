@@ -10,7 +10,7 @@ public class DriverUtils {
     private static WebDriver driver ;
     public static void createDriver()
     {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\RBS\\IdeaProjects\\testngframework\\src\\test\\java\\com\\natwest\\practice\\testngframework\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Welcome\\Desktop\\Cap Stone Project\\testngframeworkpracticeproject\\src\\test\\java\\com\\natwest\\practice\\testngframework\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
